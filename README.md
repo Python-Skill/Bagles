@@ -5,4 +5,4 @@ ___
 
 ___
 
-![Alt text](C:\Users\Us1\Documents\GitHub\Bagles\foto\21.jpg?raw=true "Title")
+![Alt text](Python-Skill/Bagles/blob/main/foto/21.jpg?raw=true "Title")
