@@ -5,4 +5,4 @@ ___
 
 ___
 
-![Картинка временно недоступна(создатель readme дыбил)](\Us1\Documents\GitHub\Bagles"Title")
+![Картинка временно недоступна(создатель readme дыбил)](\Documents\GitHub\Bagles"Title")
