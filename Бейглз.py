@@ -16,7 +16,7 @@ b = a // 100    #деление сотен без остатка
 c = (a % 100)//10   #десятки
 d = a % 10  #единицы
 
-numbervd = str(input())
+numbervd = input()
 print(numbervd[1])
 
 
