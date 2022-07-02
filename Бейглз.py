@@ -10,18 +10,16 @@ print()
 print("У вас есть 10 попыток,чтобы угадачть заданное число!")
 
 a = randint(100, 999)   #генератор рандомного числа
+numberan = str(a)
+print(numberan[1])
 b = a // 100    #деление сотен без остатка
 c = (a % 100)//10   #десятки
 d = a % 10  #единицы
-l = [b,c,d]
-print(l[0],l[1],l[2])
 
-i = int(input())
-e = i // 100
-f = (i % 100)//10
-g = i % 10
-k = [e,f,g]
-print(k[0],k[1],k[2])
+numbervd = str(input())
+print(numbervd[1])
+
+
  
 
 
