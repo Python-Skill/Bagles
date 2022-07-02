@@ -5,4 +5,4 @@ ___
 
 ___
 
-![Картинка временно недоступна(создатель readme дыбил)](https://github.comPython-Skill/Bagles/blob/main/foto/21.jpg"Title")
+![Картинка временно недоступна(создатель readme дыбил)](/foto/21.jpg"Title")
