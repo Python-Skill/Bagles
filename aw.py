@@ -13,29 +13,19 @@ a = randint(100, 999)   #генератор рандомного числа
 numberan = str(a)
 print(a)
 
-b = 0 
-while b < 10:
+for b in range(1, 10):
     numbervd = input()
     i = 0
-    while i < 3:
+    for i in range(0, 3):
         if int(numbervd[i]) == int(numberan[i]):
             print("Fermi")
-        i +=1
 
-    c = 0
-    b = 0
-    while c < 3:
-        while b < 3:
-            if int(numbervd[c]) == int(numberan[b]):
+    for n in range(0, 3):
+        for v in range(0, 3):
+            if int(numbervd[n]) == int(numberan[v]):
                 print("Pico")
-            c +=1
-            b +=1
+    else:
+        print("Bagels")
 
-   # f = 0
-   # while f < 3:
-   #     if int(numbervd[0]) != int(numberan[f]):
-   #         print("Bagels")
-   #     f +=1
-b +=1
     
 
