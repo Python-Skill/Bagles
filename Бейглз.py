@@ -11,13 +11,31 @@ print("У вас есть 10 попыток,чтобы угадачть зада
 
 a = randint(100, 999)   #генератор рандомного числа
 numberan = str(a)
-print(numberan[1])
-b = a // 100    #деление сотен без остатка
-c = (a % 100)//10   #десятки
-d = a % 10  #единицы
+print(a)
 
-numbervd = input()
-print(numbervd[1])
+b = 0 
+while b < 10:
+    numbervd = input()
+    i = 0
+    while i < 3:
+        if int(numbervd[i]) == int(numberan[i]):
+            print("Fermi")
+        i +=1
+
+    d = 0
+    c = 0
+    while c < 3:
+        if int(numbervd[d+=1]) == int(numberan[c]):
+            print("Pico")
+        c +=1
+
+   # f = 0
+   # while f < 3:
+   #     if int(numbervd[0]) != int(numberan[f]):
+   #         print("Bagels")
+   #     f +=1
+    
+
 
 
  
