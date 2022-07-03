@@ -25,7 +25,7 @@ while b < 10:
     d = 0
     c = 0
     while c < 3:
-        if int(numbervd[d+=1]) == int(numberan[c]):
+        if int(numbervd[0]) == int(numberan[c]):
             print("Pico")
         c +=1
 
@@ -34,6 +34,7 @@ while b < 10:
    #     if int(numbervd[0]) != int(numberan[f]):
    #         print("Bagels")
    #     f +=1
+b +=1
     
 
 
