@@ -1,4 +1,4 @@
-# Боже что это за говнокод
+# Боже что это за говнокод( зато мой:) )
 from random import randint 
 
 print("Я загад 3-значное число.Попробуйте угадать какое именно.")
@@ -17,18 +17,21 @@ print(a)
 # Цикл котрый запустит ввод 10раз
 for b in range(1, 10):
     numbervd = input()
+    if int(numbervd) == int(numberan):
+        print("Вы угадали заданное число")
+        break
     # Цикл првоерки введина ли бы хотябы одна цифра правельно и находиться ли она на своем месте
     for i in range(0, 3):
         if int(numbervd[i]) == int(numberan[i]):
             print("Fermi")
+            break
+        else:
+            print("Bagels")
+            break
+
     # Цикл првоерки введина ли бы хотябы одна цифра правельно и находиться ли она не на своем месте
     for n in range(0, 3):
         for v in range(0, 3):
             if int(numbervd[n]) == int(numberan[v]):
                 print("Pico")
-    else:
-        print("Bagels")
-
-    
-
-# Надо не забыть разбить все на функции
+                break
