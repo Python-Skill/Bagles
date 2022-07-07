@@ -17,9 +17,11 @@ print(a)
 # Цикл котрый запустит ввод 10раз
 for b in range(1, 10):
     numbervd = input()
+
     if int(numbervd) == int(numberan):
         print("Вы угадали заданное число")
         break
+
     # Цикл првоерки введина ли бы хотябы одна цифра правельно и находиться ли она на своем месте
     for i in range(0, 3):
         if int(numbervd[i]) == int(numberan[i]):
@@ -35,3 +37,7 @@ for b in range(1, 10):
             if int(numbervd[n]) == int(numberan[v]):
                 print("Pico")
                 break
+    
+    # Хуйня не работает
+    if b > 9:
+        print("Вы не угадали заданное число")
